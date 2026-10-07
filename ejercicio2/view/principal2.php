@@ -6,7 +6,7 @@
     <title>Bus</title>
 </head>
 <body>
-    <form action="../controller/resultado2.php" method="post">
+    <form action="index2.php" method="post">
 
         <label for="placa">Placa</label>
         <input type="text" id="placa" name="placa"> <br>

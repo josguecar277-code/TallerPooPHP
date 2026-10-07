@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>Registrar cita</h1>
-    <form action="../controller/resultado.php" method="POST">
+    <form action="index1.php" method="POST">
         
     <label for="numero">Numero de la cita</label>
     <input type = "number" id ="numero" name="numero">
 
     <br>
 
-    <label for="tipo">Tipo de tarifa</label>
+    <label for="tipo">Tipo de tarifa (1 -- 5)</label>
     <input type ="number" id="tipo" name="tipo">
     <br>
 

@@ -57,8 +57,6 @@ foreach ($clientes as $cliente){
 
 echo "<h3>Nombre Y Edad del cliente mas Joven</h3>";
 
-
-
 foreach ($clientes as $nuevo) {
     if ($nuevo instanceof Persona && $nuevo->obtEdad() <18){
         echo $nuevo->obtNombre() ."--". $nuevo->obtEdad() . "<br>";
